@@ -33,6 +33,3 @@ bin/*
 *.exe
 *.out
 *.app
-
-palindromo
-main.1.cpp

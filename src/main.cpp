@@ -26,13 +26,15 @@ int main(){
 
     tamanhoTexto = ( int ) expressao.size();
 
+    // inverte a posição da string 
     reverse( expressao.begin(), expressao.end() );
 
+    // empilha os caracteres da string invertida em pilha
     while( contador < tamanhoTexto ){
         pilha.empilhar( expressao[contador] );
         contador++;
     }
-
+    
     contador = 0;
     while( contador < tamanhoTexto ){        
         switch( pilha.topo() ){

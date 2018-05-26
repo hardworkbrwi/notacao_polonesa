@@ -1,0 +1,38 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+build/*
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+doc/*
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+bin/*
+*.exe
+*.out
+*.app
+
+palindromo
+main.1.cpp
